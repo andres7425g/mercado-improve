@@ -1,5 +1,26 @@
 {
   "compilerOptions": {
+    "baseUrl": "src/",
+    "paths": {
+      "@atoms/*": [
+        "components/atoms/*"
+      ],
+      "@molecules/*": [
+        "components/molecules/*"
+      ],
+      "@organisms/*": [
+        "components/organisms/*"
+      ],
+      "@pages/*": [
+        "components/pages/*"
+      ],
+      "@models/*": [
+        "models/*"
+      ],
+      "@redux/*": [
+        "redux/*"
+      ],
+    },
     "target": "es5",
     "lib": [
       "dom",
@@ -21,6 +42,8 @@
     "jsx": "react-jsx"
   },
   "include": [
-    "src"
-  ]
+    "src",
+    "**/*.ts",
+    "**/*.tsx"
+  ],
 }

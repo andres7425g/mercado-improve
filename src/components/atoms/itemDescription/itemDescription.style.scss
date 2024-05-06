@@ -1,0 +1,14 @@
+.description-container {
+  margin-left: 32px;
+  span {
+    font-size: 28px;
+  }
+  p {
+    font-size: 14px;
+    color: $gray;
+  }
+  span,
+  p {
+    margin-bottom: 32px;
+  }
+}

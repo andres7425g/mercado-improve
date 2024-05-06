@@ -1,0 +1,23 @@
+.active-breadcrumb a {
+  color: $gray;
+  text-decoration: none;
+  margin: 15px 0;
+
+  &::before {
+    content: '>';
+    margin: 0 0.5rem;
+    &:hover {
+      font-weight: 100;
+    }
+  }
+  &:hover {
+    font-weight: 600;
+  }
+}
+
+.first-child a {
+  &::before {
+    content: '';
+    display: none;
+  }
+}

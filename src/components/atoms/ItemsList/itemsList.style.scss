@@ -1,0 +1,20 @@
+.img-bg img {
+  margin: 16px;
+}
+.container-price {
+  margin-bottom: 32px;
+  .price {
+    font-size: 22px;
+    margin-right: 6px;
+  }
+}
+
+.title {
+    font-size: 16px;
+    color: $dark;
+    text-decoration: none;
+}
+.nickname{
+    font-size: 12px;
+    color: $gray;
+}
